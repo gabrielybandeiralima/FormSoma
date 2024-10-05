@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Formulario Soma</title>
+</head>
+<body>
+    <form action="">
+        <h1>Soma de Dois Numeros</h1>
+
+    <div>
+     <h2><label for="primeiro">Digite o primeiro valor:</label></h2>
+     <input type="text" id="primeiro" name="um" >
+    </div> 
+
+    <div>
+     <h2><label for="segundo">Digite o segundo valor:</label></h2>
+        <input type="text" id="segundo" name="dois">
+    </div> 
+
+    <div class="resultado">
+     <h2><label for="resp">O resultado da soma é:</label></h2>
+     <input class="rp" type="text"  id="resp" name="resp" disabled onclick="arroz()">
+    </div>
+
+    <div class="buttons">
+     <input  class="butt" type="button" value="Enviar" id="Enviar" name="Enviar" onclick="arroz()">
+     <input type="reset" value="Limpar" id="Limpar" name="Limpar"class="butt">
+    </div>
+    
+    </form>
+
+</body>
+</html>

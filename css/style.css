@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-image:url(../samira.jpg);
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    
+}
+h1{
+color: rgb(255, 62, 62);
+display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+label{
+    display: flex;
+    font-size: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   align-items: center;
+   text-align: center;
+   backdrop-filter: blur(6px);
+   width: 400px;
+   outline: none;
+   border: none;
+   
+  
+}
+input{
+    background: none;
+    border: none;
+     border-bottom: solid rgb(233, 18, 18) 3px;
+     text-align: center;
+     font-size: 20px;
+   outline: none;
+   
+
+ }
+ .buttons{
+    border: none;
+   display: flex;
+   flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}   
+.butt{
+    border: solid rgb(0, 0, 0) 15px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.butt:hover{
+    border: solid rgb(205, 36, 36) 18px;
+    border-radius: 20px;
+    background-color:  rgb(205, 36, 36);
+    
+}
+.rp{
+    color: black;
+}
+div{
+gap: 20px;
+
+}
+
